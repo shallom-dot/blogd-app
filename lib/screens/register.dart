@@ -82,7 +82,7 @@ class RegisterScreen extends StatelessWidget {
                     elevation: 0,
                   ),
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) =>const HomeScreen()));
+                    // Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
                   },
                   child: const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 70.0),

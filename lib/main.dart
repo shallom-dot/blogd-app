@@ -1,6 +1,6 @@
+
 import 'package:blogd/screens/Homescreen.dart';
-import 'package:blogd/screens/welcome_screen.dart';
-import 'package:blogd/utils/tabbarview.dart';
+import 'package:blogd/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomeScreen(),
+      home: const MyProfileScreen()
     );
   }
 }
